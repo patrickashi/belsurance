@@ -7,6 +7,7 @@ import Secfour from "./Components/Secfour";
 import Secfive from "./Components/Secfive";
 import Secsix from "./Components/Secsix";
 import Secseven from "./Components/Secseven";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Secfive />
       <Secsix />
       <Secseven />
+      <Footer />
     </div>
   );
 }
