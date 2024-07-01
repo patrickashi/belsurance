@@ -39,7 +39,7 @@ const  Navbar = () => {
             </div>
 
             {/* toggle menu */}
-            <div className={nav ? "fixed left-0 top-0 h-full w-[90%] ease-out duration-500 bg-emerald-50" : "fixed left-[-100%]"}>
+            <div className={nav ? "fixed left-0 top-0 h-full w-[90%] ease-out duration-500 bg-gray-100" : "fixed left-[-100%]"}>
 
                 <div className="flex align-middle mt-4 ml-2 ">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-8 text-gray-600 font-semibold align-middle ">
