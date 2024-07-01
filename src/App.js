@@ -8,6 +8,7 @@ import Secfive from "./Components/Secfive";
 import Secsix from "./Components/Secsix";
 import Secseven from "./Components/Secseven";
 import Footer from "./Components/Footer";
+import Testimonials from "./Components/Testimonials";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Secfive />
       <Secsix />
       <Secseven />
+      <Testimonials />
       <Footer />
     </div>
   );
