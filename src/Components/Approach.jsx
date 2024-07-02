@@ -10,8 +10,8 @@ const Approach = () => {
                 <h2 className="mt-4 mb-8 text-3xl md:text-4xl font-mono text-gray-800">Our goal is to protect what you care about most</h2>
             </div>
 
-            <div className="py-20 px-10 bg-[#1B2F27] text-gray-100 text-3xl  md:rounded-tr-[100px] ">
-                <p>
+            <div className="py-20 px-4 md:px-10 bg-[#1B2F27] text-gray-100 text-3xl  md:rounded-tr-[100px] ">
+                <p className="text-start">
                     This is the space to introduce visitors to the business or brand. Briefly explain who's behind it,
                     what it does and what makes it unique. Share its core values and what this site has to offer.
                 </p>
