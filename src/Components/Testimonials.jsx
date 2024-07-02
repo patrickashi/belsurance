@@ -9,7 +9,7 @@ const Testimonials = () => {
     return (
         <div className="px-4 md:px-20 py-20  duration-200">
             <div ref={ref} className={` transition-transform duration-100 ${isVisible ? 'animate-slideIn' : '-translate-x-1'}`}>
-                <button className="border rounded-tr-xl px-2 py-1 text-xs font-semibold bg-gray-800 text-gray-100">Testimonials</button>
+                <button className="border rounded-tr-xl px-2 py-1 text-xs font-semibold bg-gray-800 text-gray-100 font-mono">TESTIMONIALS</button>
                 <h2 className="mt-4 mb-8 text-3xl md:text-4xl font-mono text-gray-800">What Are Our Clients Saying</h2>
             </div>
 
