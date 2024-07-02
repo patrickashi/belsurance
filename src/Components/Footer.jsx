@@ -2,7 +2,7 @@ import React from "react"
 
 const Footer = () => {
     return (
-        <div className="px-4 md:px-20 py-20 bg-[#1B2F27] hover:bg-violet-300 hover:text-gray-700 duration-200 text-gray-200 border-t   border-gray-300">
+        <div className="px-4 md:px-20 py-10 bg-[#1B2F27] hover:bg-violet-300 hover:text-gray-700 duration-200 text-gray-200 border-t   border-gray-300">
             <div className="flex gap-16 flex-col md:flex-row justify-between border-b border-gray-300 pb-4">
                 <div>
                     <div className="flex align-middle hover:text-black ">
@@ -45,7 +45,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row gap-2 md:gap-0 justify-between mt-4">
+            <div className="flex flex-col md:flex-row gap-2 md:gap-0 justify-between mt-4 text-xs">
                 <div>Pricacy Policy</div>
                 <div>© 2024 belsurance made by patrickpeko</div>
             </div>

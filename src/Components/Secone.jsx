@@ -5,7 +5,7 @@ import useIntersectionObserver from "../hooks/useIntersectionObserver";
 const Secone = () => {
     const [ref, isVisible] = useIntersectionObserver({ threshold: 0.1 });
     return (
-        <div className="flex justify-center flex-col md:flex-row mx-4 md:mx-20 py-20 mt-20 mb-12 text-gray-700">
+        <div className="flex justify-center flex-col md:flex-row mx-4 md:mx-20 py-20 mt-10 md:mt-20 mb-12 text-gray-700">
             <div ref={ref} className={`w-full md:w-[600px]  transition-transform duration-100 ${isVisible ? 'animate-slideIn' : '-translate-x-1'}`}>
                 <h2 className="text-5xl md:text-6xl mt-8 font-mono">Insurance Coverage You Can Count On</h2>
                 <p className="my-6 text-xl">

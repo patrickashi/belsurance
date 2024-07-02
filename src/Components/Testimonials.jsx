@@ -16,7 +16,7 @@ const Testimonials = () => {
             <div className="flex flex-row">
                 <div className="flex flex-col">
                     <div className="flex justify-center border border-gray-400 py-8 px-2 md:6 w-100">
-                        <img src={leahyurfset} alt="img" className=" w-80 h-60 rounded-2xl object-cover"/>
+                        <img src={leahyurfset} alt="img" className=" w-80 h-60 rounded-lg object-cover"/>
                     </div>
                     <div className="text-center w-100 border border-gray-400 py-6 px-2 md:6">
                         <p className="text-gray-600 mb-4 text-sm">This is the space to share a review from one of the business's clients or customers.</p>
@@ -25,7 +25,7 @@ const Testimonials = () => {
                 </div>
                 <div className="flex flex-col">
                     <div className="flex justify-center border border-gray-400 py-8 px-2 md:6 w-100">
-                        <img src={roygold} alt="img" className=" w-80 h-60 rounded-2xl object-cover"/>
+                        <img src={roygold} alt="img" className=" w-80 h-60 rounded-lg object-cover"/>
                     </div>
                     <div className="text-center w-100 border border-gray-400 py-6 px-2 md:6">
                         <p className="text-gray-600 mb-4 text-sm">This is the space to share a review from one of the business's clients or customers.</p>
@@ -34,7 +34,7 @@ const Testimonials = () => {
                 </div>
                 <div className="flex flex-col">
                     <div className="flex justify-center border border-gray-400 py-8 px-2 md:6 w-100">
-                        <img src={nelayliuay} alt="img" className=" w-80 h-60 rounded-2xl object-cover"/>
+                        <img src={nelayliuay} alt="img" className=" w-80 h-60 rounded-lg object-cover"/>
                     </div>
                     <div className="text-center w-100 border border-gray-400 py-6 px-2 md:6">
                         <p className="text-gray-600 mb-4 text-sm">This is the space to share a review from one of the business's clients or customers.</p>

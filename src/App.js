@@ -9,6 +9,8 @@ import Secsix from "./Components/Secsix";
 import Secseven from "./Components/Secseven";
 import Footer from "./Components/Footer";
 import Testimonials from "./Components/Testimonials";
+import Approach from "./Components/Approach";
+import Benefits from "./Components/Benefits";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Secfive />
       <Secsix />
       <Secseven />
+      <Approach />
+      <Benefits />
       <Testimonials />
       <Footer />
     </div>
