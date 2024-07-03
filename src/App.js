@@ -11,6 +11,7 @@ import Footer from "./Components/Footer";
 import Testimonials from "./Components/Testimonials";
 import Approach from "./Components/Approach";
 import Benefits from "./Components/Benefits";
+import About from "./Components/About";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Secfive />
       <Secsix />
       <Secseven />
+      <About />
       <Approach />
       <Benefits />
       <Testimonials />
