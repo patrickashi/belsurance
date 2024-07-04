@@ -8,7 +8,7 @@ const Choosecategory = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-80 p-4">
+    <div className="flex flex-col items-center justify-center h-40 p-4">
       <div className="mb-4 w-full">
         <label className="block mb-2">Choose a Category:</label>
            <select

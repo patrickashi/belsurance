@@ -3,13 +3,12 @@ import React, { useState } from 'react';
 const Searchcomponent = () => {
   const [query, setQuery] = useState('');
   const [data] = useState([
-    'notifications',
-    'faq',
+    'contact info',
     'user policy',
     'Partners',
     'address',
     'values',
-    'Members',
+    '',
     'email',
   ]); // Sample data
 
@@ -17,7 +16,7 @@ const Searchcomponent = () => {
     setQuery(e.target.value);
   };
 
-  const filteredData = data.filter(item => 
+  const filteredData = data.filter((item) =>
     item.toLowerCase().includes(query.toLowerCase())
   );
 
@@ -30,13 +29,20 @@ const Searchcomponent = () => {
         className="p-2 border border-gray-300 rounded mb-4 w-full"
         placeholder="Search..."
       />
-      <ul className="w-full max-w-md">
-        {filteredData.map((item, index) => (
-          <li key={index} className="p-2 border-b border-gray-300 text-center">
-            {item}
-          </li>
-        ))}
-      </ul>
+      {filteredData.length > 0 ? (
+        <ul className="w-full ">
+          {filteredData.map((item, index) => (
+            <li key={index} className="p-2 border-b border-gray-300 text-start md:text-center">
+              {item}
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p className="text-center text-gray-500 mt-4 w-80">
+          Sorry, we could not find any results to match your search criteria.
+          Please try again with some different keywords.
+        </p>
+      )}
     </div>
   );
 };
