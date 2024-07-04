@@ -26,8 +26,8 @@ const Searchcomponent = () => {
         type="text"
         value={query}
         onChange={handleSearch}
-        className="p-2 border border-gray-300 rounded mb-4 w-full"
-        placeholder="Search..."
+        className="p-2 border border-gray-300 rounded mb-4 w-full font-mono text-sm"
+        placeholder="looking for something?"
       />
       {filteredData.length > 0 ? (
         <ul className="w-full ">
