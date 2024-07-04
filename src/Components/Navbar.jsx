@@ -50,10 +50,10 @@ const  Navbar = () => {
                 </div>
 
                 <ul className="flex flex-col p-4 my-6 gap-16 text-black">
-                    <li className="p-4 border-l border-blue-600">Services</li>
-                    <li className="p-4 border-l border-green-600">About</li>
+                    <li className="p-4 border-l border-blue-600"><a href="#services">Services</a></li>
+                    <li className="p-4 border-l border-green-600"><a href="#about">About</a></li>
                     <li className="p-4 border-l border-red-600"><a href="#faq">FAQ</a></li>
-                    <li className="p-4 border-l border-pink-600">Contact Us</li>
+                    <li className="p-4 border-l border-pink-600"><a href="#contactus">Contact Us</a></li>
                 </ul>
 
                
