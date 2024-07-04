@@ -72,4 +72,24 @@ body {
     scroll-behavior: smooth;
   }
   
+
+  @keyframes arrowAnimation {
+    0% { transform: translateY(0); opacity: 1; }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  
+  .arrow {
+    position: fixed;
+    bottom: 120px; /* Adjust based on your layout */
+    right: 50px;  /* Adjust based on your layout */
+    animation: arrowAnimation 1s 3;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .arrow.visible {
+    opacity: 1;
+  }
+  
   

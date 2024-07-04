@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { FaArrowDown } from 'react-icons/fa'; 
+
 import Navbar from "./Components/Navbar";
 import Secone from "./Components/Secone";
 import Sectwo from "./Components/Sectwo";
@@ -15,9 +17,27 @@ import About from "./Components/About";
 import Faq from "./Components/Faq";
 
 function App() {
+  const [arrowVisible, setArrowVisible] = useState(false);
+
+  const handleContactClick = () => {
+    setArrowVisible(true);
+    setTimeout(() => setArrowVisible(false), 5000); // Hide arrow after 3 seconds
+  };
+
+  useEffect(() => {
+    let timer;
+    if (arrowVisible) {
+      timer = setTimeout(() => {
+        setArrowVisible(false);
+      }, 3000); // Hide arrow after 3 seconds
+    }
+    return () => clearTimeout(timer);
+  }, [arrowVisible]);
+
+
   return (
     <div className="">
-      <Navbar />
+      <Navbar handleContactClick={handleContactClick} />
       <Secone />
       <section id="services">
         <Sectwo />
@@ -40,6 +60,9 @@ function App() {
       </section>
       
       <Footer />
+      <div className={`arrow ${arrowVisible ? 'visible' : ''}`}>
+        <FaArrowDown />
+      </div>
     </div>
   );
 }
