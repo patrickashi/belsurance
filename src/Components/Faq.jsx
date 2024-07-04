@@ -1,6 +1,8 @@
 import React from "react"
 import useIntersectionObserver from "../hooks/useIntersectionObserver";
 import arduinohand from '../Assets/arduinohand.mp4';
+import Searchomponent from "./Searchcomponent";
+import Choosecategory from "./Choosecategory";
 
 
 
@@ -13,9 +15,16 @@ const Faq = () => {
                 <h2 className="mt-4 mb-8 text-3xl md:text-4xl font-mono text-gray-800">You're Probably Wondering...</h2>
             </div>
 
-            <div className="custom-scrollbar flex flex-col h-80 overflow-y-scroll  justify-between gap-4 py-6 text-gray-800 text-md mb-4 md:mb-20 ">
-                <h2 className="text-center text-3xl font-mono">Frequently Asked Questions</h2>
-                
+            <div className="flex flex-col">
+                <div className="custom-scrollbar flex flex-col h-80 overflow-y-scroll  justify-between gap-4 py-6 text-gray-800 text-md mb-4 md:mb-4 ">
+                    <h2 className="text-center text-3xl font-mono">Frequently Asked Questions</h2>
+                    <Searchomponent />
+                    
+                </div>
+
+                <div>
+                    <Choosecategory />
+                </div>
             </div>
 
             {/* <div className="flex items-end justify-center">
