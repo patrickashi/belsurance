@@ -19,17 +19,26 @@ function App() {
     <div className="">
       <Navbar />
       <Secone />
-      <Sectwo />
+      <section id="services">
+        <Sectwo />
+      </section>
+      
       <Secthree />
       <Secfour />
       <Secfive />
       <Secsix />
       <Secseven />
-      <About />
+      <section id="about">
+        <About />
+      </section>
+      
       <Approach />
       <Benefits />
       <Testimonials />
-      <Faq />
+      <section id="faq" > 
+        <Faq />
+      </section>
+      
       <Footer />
     </div>
   );

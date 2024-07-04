@@ -25,10 +25,10 @@ const  Navbar = () => {
             
             <div>
                 <ul className="hidden mobile:hidden  md:flex lg:flex xl-flex 2xl:flex text-gray-500 mx-auto  ">
-                    <li className="p-4 hover:underline hover:cursor-pointer">Services</li>
-                    <li className="p-4 hover:underline hover:cursor-pointer">About</li>
-                    <li className="p-4 hover:underline hover:cursor-pointer">FAQ</li>
-                    <li className="p-4 hover:underline hover:cursor-pointer">Contact Us</li>
+                    <li className="p-4 hover:underline hover:cursor-pointer"><a href="#services">Services</a></li>
+                    <li className="p-4 hover:underline hover:cursor-pointer"><a href="#about">About</a></li>
+                    <li className="p-4 hover:underline hover:cursor-pointer"><a href="#faq">FAQ</a></li>
+                    <li className="p-4 hover:underline hover:cursor-pointer"><a href="#contactus">Contact Us</a></li>
                     
                 </ul>
             </div>
@@ -52,7 +52,7 @@ const  Navbar = () => {
                 <ul className="flex flex-col p-4 my-6 gap-16 text-black">
                     <li className="p-4 border-l border-blue-600">Services</li>
                     <li className="p-4 border-l border-green-600">About</li>
-                    <li className="p-4 border-l border-red-600">FAQ</li>
+                    <li className="p-4 border-l border-red-600"><a href="#faq">FAQ</a></li>
                     <li className="p-4 border-l border-pink-600">Contact Us</li>
                 </ul>
 
