@@ -12,6 +12,7 @@ import Testimonials from "./Components/Testimonials";
 import Approach from "./Components/Approach";
 import Benefits from "./Components/Benefits";
 import About from "./Components/About";
+import Faq from "./Components/Faq";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Approach />
       <Benefits />
       <Testimonials />
+      <Faq />
       <Footer />
     </div>
   );

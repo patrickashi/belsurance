@@ -33,3 +33,37 @@ body {
     -ms-overflow-style: none;  /* For Internet Explorer and Edge */
     scrollbar-width: none;  /* For Firefox */
   }
+
+  .hexagon-wrapper {
+    position: relative;
+    width: 200px; /* Adjust the width as needed */
+    padding-bottom: 173.2px; /* Adjust the padding-bottom as needed */
+    margin: 10px 0; /* Adjust the margin as needed */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hexagon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(
+      25% 0%, 
+      75% 0%, 
+      100% 50%, 
+      75% 100%, 
+      25% 100%, 
+      0% 50%
+    );
+    overflow: hidden;
+  }
+  
+  .hexagon video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
