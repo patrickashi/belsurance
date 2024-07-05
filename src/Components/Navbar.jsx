@@ -35,7 +35,7 @@ const  Navbar = ({ handleContactClick }) => {
                     <li className="p-4 hover:underline hover:cursor-pointer"><a href="#services">Services</a></li>
                     <li className="p-4 hover:underline hover:cursor-pointer"><a href="#about">About</a></li>
                     <li className="p-4 hover:underline hover:cursor-pointer"><a href="#faq">FAQ</a></li>
-                    <li className="p-4 hover:underline hover:cursor-pointer" onClick={() => { handleContactClick(); handleLinkClick(); }}><a href="#contactus">Contact Us</a></li>
+                    <li className="p-4 hover:underline hover:cursor-pointer" onClick={() => { handleContactClick();  }}><a href="#contactus">Contact Us</a></li>
                     
                 </ul>
             </div>
