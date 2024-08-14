@@ -8,7 +8,7 @@ const Whydofaqsmatter = () => {
   };
 
   return (
-    <div className="faq-section p-4 border-b border-gray-300 w-full max-w-md mx-auto">
+    <div className="faq-section p-4 border-b border-gray-300  w-full max-w-md mx-auto">
       <div className="flex justify-between items-center">
         <h2 className="text-md font-semibold">Why do FAQ's matter?</h2>
         <button onClick={toggleVisibility} className="focus:outline-none">

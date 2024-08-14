@@ -1,4 +1,5 @@
 import React from "react"
+import pekodev from "../Assets/pekodev.webp";
 
 const Footer = () => {
     return (
@@ -12,6 +13,9 @@ const Footer = () => {
 
                         <h2 className="font-semibold text-xl ml-2 ">Belsurance</h2>
                     </div>
+
+                    <img src={pekodev} className="w-12 mt-6 rounded-full" alt="logo" />
+
                 </div>
                 <div>
                     <h1 className="font-bold mb-4">Menu</h1>
